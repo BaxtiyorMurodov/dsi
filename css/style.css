@@ -1,9 +1,12 @@
+
+*:focus{
+    outline:outset;
+}
+
 *::after,::before{
     box-sizing: border-box;
 }
-html{
-    
-}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -40,7 +43,6 @@ a{
     justify-content: space-between;
     padding-top: 22px;
 }
-
 .main-nav-link{
     display: flex;
     align-items: center;
